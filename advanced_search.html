@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="index_style.css">
+
+</head>
+
+<body>
+    <a href="index.html">Go Back</a>
+    <h3 style="color:tomato">Advanced Search</h3>
+    <hr>
+    <p>Find Pages With...</p>
+    <table>
+        <form action="https://www.google.com/search" class="">
+            <tr>
+                <td class="prompt_cells"><label class="prompts" for="all these">all these words:</label></td>
+                <td><input class="input_fields" type="text" name="as_q"/></td>
+            </tr>
+            <tr>
+                <td class="prompt_cells"><label class="prompts" for="exact">this exact word or phrase:</label></td>
+                <td><input class="input_fields" type="text" name="as_epq"/></td>
+            </tr>
+            <tr>
+                <td class="prompt_cells"><label class="prompts" for="any of">any of these words:</label></td>
+                <td><input class="input_fields" type="text" name="as_oq"/></td>
+            </tr>
+            <tr>
+                <td class="prompt_cells"><label class="prompts" for="none of">none of these words:</label></td>
+                <td><input class="input_fields" type="text" name="as_eq" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="button" type="submit" value="Advanced Search"></td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>
